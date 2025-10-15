@@ -15,7 +15,7 @@ float l2_distance(const std::vector<float> &a, const std::vector<float> &b) {
 }
 
 
-float consine_similarity(const std::vector<float> &a, const std::vector<float> &b) {
+float cosine_similarity(const std::vector<float> &a, const std::vector<float> &b) {
     if (a.size() != b.size()) 
         throw std::invalid_argument("Dimension mismatch.");
 

@@ -9,5 +9,5 @@ public:
     std::vector<int> search(const std::vector<float> &query, int top_k) override;
 
 private:
-    const VectorDB *db_;
+    const VectorDB *db_ = nullptr;
 };

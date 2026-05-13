@@ -27,7 +27,7 @@ std::vector<int> BruteForceIndex::search(const std::vector<float> &query, int to
     }
 
     std::vector<int> result;
-    for (int i = 0; i < top_k && !min_heap.empty(); ++i) {
+    for (int i = 0; i < top_k && !min_heap.empty(); ++i){
         result.push_back(min_heap.top().second);
         min_heap.pop();
     }
